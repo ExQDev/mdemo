@@ -23,7 +23,8 @@ const styles = theme => ({
     top: theme.spacing(1.5),
     color: theme.palette.grey[500],
     width: 14,
-    height: 14
+    height: 14,
+    padding: 0
   },
 })
 
