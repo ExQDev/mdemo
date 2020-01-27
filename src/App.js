@@ -6,6 +6,7 @@ import theme from './modules/themeProvider'
 import { ThemeProvider } from '@material-ui/core'
 
 import BaseImportDialog from './components/BaseImportDialog'
+import MercedesClassVInfo from './components/MercedesClassVInfo'
 
 /* 
  * mapDispatchToProps
@@ -47,11 +48,7 @@ class App extends Component {
 
     return (
       <ThemeProvider theme={theme}>
-        <BaseImportDialog
-          fields={fields}
-          callback={this.handleCallback}
-          defaultFields={defaultFields}
-          />
+        <MercedesClassVInfo/>
       </ThemeProvider>
     );
   }
